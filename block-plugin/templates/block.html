@@ -10,7 +10,7 @@
     </div>
     <div style=";overflow: hidden; min-height: 300px">
       <br>
-      {% for k, v in blockArray[count]["block"].iteritems() %}
+      {% for k, v in blockArray[count]["block"].items() %}
         {% if v[0] %}
           <script> $('#s_title_block_{{ count }}').html("{{ v[0] }}");</script>
         {% endif %}
