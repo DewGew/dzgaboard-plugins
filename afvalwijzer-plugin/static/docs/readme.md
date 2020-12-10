@@ -6,10 +6,10 @@
 @summary=To use this plugin on you're dashboard you first need to check if you zipcode is in the mijnafvalwijzer.nl site. so check this first before you configure you're .conf file.
 <pre>
 afvalwijzer:
-display_components:
-components: afvalwijzer
-afvalwijzer:
-zipcode:
-  - xxxxXX
-  - 11
+  display_components:
+    components: afvalwijzer
+  afvalwijzer:
+    zipcode:
+      - xxxxXX
+      - 11
 </pre>
